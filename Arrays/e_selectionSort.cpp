@@ -57,6 +57,6 @@ int main(){
     // selectSortInc();
     
     //Selection sort Decreasing order
-    selectSortDec();
+    // selectSortDec();
 
 }
