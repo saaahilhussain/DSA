@@ -20,6 +20,5 @@ int main(){
 
     cout<<"Array after sorting: ";
     int j;
-    for(int i=)
 
 }
