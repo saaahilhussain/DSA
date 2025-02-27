@@ -18,4 +18,8 @@ int main(){
         cout<<arr[i]<<" ";
     }
 
+    cout<<"Array after sorting: ";
+    int j;
+    for(int i=)
+
 }
