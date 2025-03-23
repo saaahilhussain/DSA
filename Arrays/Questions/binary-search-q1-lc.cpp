@@ -1,6 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//Find First and Last Position of Element in Sorted Array
 int main(){
     int arr[5] = {3, 5, 5, 5, 7};
     int start = 0, end = 4, mid, first=-1, last = -1, target;
@@ -9,7 +10,7 @@ int main(){
     cout<<"Find: ";
     cin>>target;
 
-    //Find First and Last Position of Element in Sorted Array
+    //store first element
     while(start<=end){
         mid = start+(end-start)/2;
         if(arr[mid]==target)
@@ -19,6 +20,7 @@ int main(){
         start = mid+1;
         else end = mid-1;
     }
+    
     //last position
     start =0; end=4;
     while(start<=end){
