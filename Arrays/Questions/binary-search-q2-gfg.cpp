@@ -19,7 +19,7 @@ int main(){
     for(int i=0; i<10; i++) cout<<arr[i]<<" ";
     cout<<endl;
     //array sorted
-
+    
     //apply binary search and store the first occurence
     int start=0, end=9, mid, target;
     int first=-1, last=-1, counter=0;
